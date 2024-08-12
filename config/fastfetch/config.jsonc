@@ -1,0 +1,79 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+        "type": "file",
+        "source": ".config/fastfetch/logo.txt",
+        "padding": { "left": 1 },
+        "color": {
+            "1": "white",
+            "2": "red"
+        }
+    },
+/*
+  "logo": {
+    "type": "iterm",
+    "source": "~/.config/fastfetch/arch.png",
+    "width": 16,
+    "height": 16
+  },
+*/
+  "modules": [
+    {
+      "key": "OS     ",
+      "keyColor": "blue",
+      "type": "os"
+    },
+    {
+      "key": "Host   ",
+      "keyColor": "blue",
+      "type": "host"
+    },
+    {
+      "key": "Kernel ",
+      "keyColor": "blue",
+      "type": "kernel"
+    },
+    {
+      "key": "Uptime ",
+      "keyColor": "blue",
+      "type": "uptime"
+    },
+    {
+      "key": "Theme  ",
+      "keyColor": "blue",
+      "type": "theme"
+    },
+    {
+      "key": "Icons  ",
+      "keyColor": "blue",
+      "type": "icons"
+    },
+    {
+      "key": "CPU    ",
+      "keyColor": "blue",
+      "type": "cpu"
+    },
+    {
+      "key": "GPU    ",
+      "keyColor": "blue",
+      "type": "gpu"
+    },
+    {
+      "key": "Memory ",
+      "keyColor": "blue",
+      "type": "memory"
+    },
+    {
+      "type": "colors",
+      "symbol": "circle",
+      "paddingLeft": 1
+    }
+  ],
+  "display": {
+        "separator": " ⇢ ",
+      "key": {
+            "type": "icon",
+            "paddingLeft": 1
+        }
+  }
+}

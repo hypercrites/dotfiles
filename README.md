@@ -36,10 +36,16 @@ At the end, it should look like this:
 
 1. Prepare the partitions; `lsblk` lists all discs and partitions.
 2. Since i wanna use my second NVMe, its `cfdisk /dev/nvme1n1`.
-3. Select *Free Space*, 1GiB, *Type*: EFI System.
-4. Select *Free Space* again, *enter* (for the entire free space left), *Type*: Linux Filesystem. Select *Write, yes, Quit*.
-5. To confirm, enter `lsblk` again. In my case i have `nvme1n1p3` and `nvme1n1p4` now.
-6. Now format the two new partitions. For the 1GiB EFI-Partition type `mkfs.fat -F32 /dev/nvme1n1p3`, for the filesystem type `mkfs.ext4 /dev/nvme1n1p4`.
+ - Select *Free Space*, 1GiB, *Type*: EFI System.
+ - Select *Free Space* again, *enter* (for the entire free space left), *Type*: Linux Filesystem. Select *Write, yes, Quit*.
+3. To confirm, enter `lsblk` again. In my case i have `nvme1n1p3` and `nvme1n1p4` now.
+4. Now format the two new partitions.
+ - For the 1GiB EFI-Partition type `mkfs.fat -F32 /dev/nvme1n1p3`
+ - For the filesystem type `mkfs.ext4 /dev/nvme1n1p4`.
+5. Now mount the two new partitions.
+ - `mount /dev/nvme1n1p4 /mnt`
+ - `mount --mkdir /dev/nvme1n1p3 /mnt/boot`
+6. 
 
 [This video](https://www.youtube.com/watch?v=eUhsFV0xIQc) helped me alot.
 

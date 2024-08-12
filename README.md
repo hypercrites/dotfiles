@@ -17,7 +17,7 @@ At the end, it should look like this:
 ## Index
 - [Preparing](#Preparing)
 - [Installation](#Installation)
-- [First packages and settings](#First packages and settings)
+- [First packages and settings](#first-packages-and-settings)
 - ricing
 - tweaking
 

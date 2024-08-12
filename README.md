@@ -81,11 +81,11 @@ At the end, it should look like this:
 ## Ricing
 
 ### Theme and Icons
-1. Arc-Theme
-2. Tela icons
+1. `sudo pacman -S arc-gtk-theme`
+2. [Tela icons](https://github.com/vinceliuice/Tela-icon-theme?tab=readme-ov-file#installation) (because i couldn't get from the AUR)
 
 ### Terminal
-1. zsh
+1. `sudo pacman -S zsh`
 2. Font *mononoki*; `yay -S ttf-mononoki`, `sudo pacman -S ttf-mononoki-nerd`
 3. [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#getting-started)
 

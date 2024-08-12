@@ -15,11 +15,16 @@ At the end, it should look like this:
 
 
 ## Index
-- Preparing
+- [Preparing](#Preparing)
 - Installation
 - First packages
 - First Settings
 - ricing
 - tweaking
+
+## Preparing
+
+To prepare for multiboot with windows, i shrunk one of my NTFS-Partitions of arround 100GB (unallocated) to have enough space for Arch and all the other stuff later.
+
 
 ~ to be continued

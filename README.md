@@ -29,7 +29,8 @@ In the end, it should look like this:
 ### WLAN
 
 1. Choose the right keyboard-layout, in my case `loadkeys de-latin1`.
-2. Connect to WLAN; first `iwctl` then `station wlan0 connect-hidden <ssid>`. Important; Since i know my network-name and everything i don't need to scan and select it, i can just connect.
+2. Connect to WLAN; first `iwctl` then `station wlan0 connect-hidden <ssid>`.
+   - Important; Since i know my network-name and everything i don't need to scan and select it, i can just connect.
    
 ### Partitioning and mounting
 

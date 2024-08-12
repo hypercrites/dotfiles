@@ -13,4 +13,13 @@ At the end, it should look like this:
 
 [<img src="https://raw.githubusercontent.com/hypercrites/dotfiles/main/screenshot_preview.png">](https://raw.githubusercontent.com/hypercrites/dotfiles/main/screenshot.png)
 
+
+## Index
+- Preparing
+- Installation
+- First packages
+- First Settings
+- ricing
+- tweaking
+
 ~ to be continued

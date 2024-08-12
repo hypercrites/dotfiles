@@ -2,7 +2,7 @@
 > [!NOTE]
 > This comes from my first (successful, lol) Arch installation.
 > 
-> This whill not only incluce my dotfiles but also a list of installed packages, commands, images and other stuff that will archieve a installation that suits my likings.
+> This will not only incluce my dotfiles but also a list of installed packages, commands, images and other stuff that will archieve a installation that suits my likings.
 > 
 > With that said, expect that some stuff won't work for you because of some of my quirks, like connecting to my hidden wifi before using archinstall as example and simply because i write everything down with my *Lenovo ThinkPad T480* in mind.
 

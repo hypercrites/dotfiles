@@ -12,3 +12,5 @@ My goal is to make it as easy and fast as possible **for me** to get my stuff ru
 At the end, it should look like this:
 
 [<img src="https://raw.githubusercontent.com/hypercrites/dotfiles/main/screenshot_preview.png">](https://raw.githubusercontent.com/hypercrites/dotfiles/main/screenshot.png)
+
+~ to be continued

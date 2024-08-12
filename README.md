@@ -73,6 +73,24 @@ At the end, it should look like this:
 
 ### AUR
 
-1. Get `yay` to install stuff from AUR; [github](https://github.com/Jguer/yay?tab=readme-ov-file#installation)
+1. Get *yay* to install stuff from AUR; [github](https://github.com/Jguer/yay?tab=readme-ov-file#installation)
+2. Get *Pamac*; `yay -S pamac-aur`
+
+~ under construction
+
+## Ricing
+
+### Theme and Icons
+1. Arc-Theme
+2. Tela icons
+
+### Terminal
+1. zsh
+2. [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#getting-started)
+3. "mononoki"
+
+## Tweaking
+1. Apply GTK-theme everywhere: `sudo nano /etc/environment`; `GTK_THEME=Arc-Dark`
+   
 
 ~ to be continued

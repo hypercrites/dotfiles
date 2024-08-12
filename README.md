@@ -71,6 +71,8 @@ At the end, it should look like this:
 5. `sudo grub-mkconfig -o /boot/grub/grub.cfg`
 6. Reboot
 
-###
+### AUR
+
+1. Get `yay` to install stuff from AUR; [github](https://github.com/Jguer/yay?tab=readme-ov-file#installation)
 
 ~ to be continued

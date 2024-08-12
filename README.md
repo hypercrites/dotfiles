@@ -1,6 +1,6 @@
 # dotfiles
 > [!NOTE]
-> This comes from my first (successfull, lol) Arch installation.
+> This comes from my first (successful, lol) Arch installation.
 > 
 > This whill not only incluce my dotfiles but also a list of installed packages, commands, images and other stuff that will archieve a installation that suits my likings.
 > 

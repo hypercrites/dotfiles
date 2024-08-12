@@ -18,8 +18,8 @@ In the end, it should look like this:
 - [Preparing](#Preparing)
 - [Installation](#Installation)
 - [First packages and settings](#first-packages-and-settings)
-- ricing
-- tweaking
+- [Ricing](#ricing)
+- [Tweaking](#tweaking)
 
 ## Preparing
 

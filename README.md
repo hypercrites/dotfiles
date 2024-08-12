@@ -62,4 +62,15 @@ At the end, it should look like this:
 
 ## First packages and settings
 
+### GRUB
+
+1. Open Terminal, install `sudo pacman -S os-prober ntfs-3g`
+2. `sudo os-prober`
+3. `sudo nano /etc/default/grub`
+4. At the bottom, uncomment *GRUB_DISABLE_OS_PROBER=false*, CTRL+O, enter, CTRL+X
+5. `sudo grub-mkconfig -o /boot/grub/grub.cfg`
+6. Reboot
+
+###
+
 ~ to be continued

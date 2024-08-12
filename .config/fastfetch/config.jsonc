@@ -9,14 +9,7 @@
             "2": "red"
         }
     },
-/*
-  "logo": {
-    "type": "iterm",
-    "source": "~/.config/fastfetch/arch.png",
-    "width": 16,
-    "height": 16
-  },
-*/
+
   "modules": [
     {
       "key": "OS     ",

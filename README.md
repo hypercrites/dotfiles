@@ -86,8 +86,8 @@ At the end, it should look like this:
 
 ### Terminal
 1. zsh
-2. [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#getting-started)
-3. "mononoki"
+2. Font *mononoki*; `yay -S ttf-mononoki`, `sudo pacman -S ttf-mononoki-nerd`
+3. [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#getting-started)
 
 ## Tweaking
 1. Apply GTK-theme everywhere: `sudo nano /etc/environment`; `GTK_THEME=Arc-Dark`

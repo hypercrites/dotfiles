@@ -35,7 +35,7 @@ At the end, it should look like this:
 ### Partitioning and mounting
 
 1. Prepare the partitions; `lsblk` lists all discs and partitions.
-2. Since i wanna use my second NVMe, its `cfdisk /dev/nvme1n1`.
+2. Since i wanna use my second NVMe, its `cfdisk /dev/nvme1n1` for me.
  - Select *Free Space*, 1GiB, *Type*: EFI System.
  - Select *Free Space* again, *enter* (for the entire free space left), *Type*: Linux Filesystem. Select *Write, yes, Quit*.
 3. To confirm, enter `lsblk` again. In my case i have `nvme1n1p3` and `nvme1n1p4` now.
@@ -45,7 +45,10 @@ At the end, it should look like this:
 5. Now mount the two new partitions.
  - `mount /dev/nvme1n1p4 /mnt`
  - `mount --mkdir /dev/nvme1n1p3 /mnt/boot`
-6. 
+
+## Installation
+
+1. **archinstall**
 
 [This video](https://www.youtube.com/watch?v=eUhsFV0xIQc) helped me alot.
 

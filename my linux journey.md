@@ -21,7 +21,7 @@ I was so annoyed that i didn't even try to fix it and ditched Linux for a few ye
 
 Around 2015 i found my old Netbook (Asus EeePC 901) in the basement with Windows XP and Ubuntu Netbook Remix that i used from 2008 to 2009 at school. 
 
-I asked on reddit about a more modern distro that runs on such a low hardware, which introduced me to Manjaro. (You can read about it \[here\](https://www.reddit.com/r/linuxquestions/comments/3dut5i/linux_on_asus_eeepc_901/), the post is still up!)
+I asked on reddit about a more modern distro that runs on such a low hardware, which introduced me to Manjaro. (You can read about it [here](https://www.reddit.com/r/linuxquestions/comments/3dut5i/linux_on_asus_eeepc_901/), the post is still up!)
 
 I knew about Arch Linux, but it was too much fiddling for me at the time.
 
@@ -29,7 +29,7 @@ I liked Manjaro and XFCE so much that i installed it on my main computer too. I 
 
 # A few years later;
 
-Fast-forward to 2017, i got \[my first Thinkpad X230\](https://www.reddit.com/r/thinkpad/comments/7h5imk/i_am_one_of_you_now/) and put Manjaro on it, ofc. I so much enjoyed the whole experience that i did all the non-gaming stuff on my Thinkpad while using my Computer only for gaming. 
+Fast-forward to 2017, i got [my first Thinkpad X230](https://www.reddit.com/r/thinkpad/comments/7h5imk/i_am_one_of_you_now/) and put Manjaro on it, ofc. I so much enjoyed the whole experience that i did all the non-gaming stuff on my Thinkpad while using my Computer only for gaming. 
 
 That was until i lost my Thinkpad around 2022 at a time that couldn't be more bad because i just started retraining in IT and was planning on using it for educational purposes. I wasn't interested to install Manjaro on my computer and decided to just don't care about Linux for a while and focus on the retraining program.
 

@@ -93,9 +93,9 @@ In the end, it should look like this:
 ## Tweaking
 1. Apply GTK-theme everywhere: `sudo nano /etc/environment`; `GTK_THEME=Arc-Dark`
 2. Apply GTK-theme to Qt: `sudo nano /etc/environment`; `QT_QPA_PLATFORMTHEME=gtk2`
-   2.1. `nano ~/.config/Trolltech.conf`; 
+3. And `nano ~/.config/Trolltech.conf`; 
      - `[Qt]`
      - `style=GTK+`
-3. 
+4. 
 
 ~ to be continued

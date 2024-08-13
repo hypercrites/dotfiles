@@ -79,13 +79,13 @@ In the end, it should look like this:
 1. Get *yay* to install stuff from AUR; [github](https://github.com/Jguer/yay?tab=readme-ov-file#installation)
 2. Get *Pamac*; `yay -S pamac-aur`
 
-~ under construction
-
 ## Additional packages
 
 <sup>There is no order, just some packages i use so i don't forget them.</sup>
 
-> firefox, thunderbird, gimp, gimp-gap, code - oss, grub-customizer, simple-scan, cups, gparted, hexchat, libreoffice fresh, plank, qbittorrent, vlc, blueman, bluez, 
+> firefox, thunderbird, gimp, gimp-gap, code - oss, grub-customizer, simple-scan, cups, gparted, hexchat, libreoffice fresh, plank, qbittorrent, vlc, blueman, bluez,
+
+> This is under construction, i will add packages whenever they cross my mind. 
 
 ## Ricing
 
@@ -124,6 +124,11 @@ style=GTK+
 ```
 cursor-theme-name = Breeze_Snow
 cursor-theme-size = 16
+```
+6. Pacman: `sudo nano /etc/pacman.conf`
+```
+ParallelDownloads = 5
+ILoveCandy
 ```
 
 ~ to be continued

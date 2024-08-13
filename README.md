@@ -84,6 +84,7 @@ In the end, it should look like this:
 ## Additional packages
 
 <sup>There is no order, just some packages i use so i don't forget them.</sup>
+
 gimp, gimp-gap, 
 
 ## Ricing

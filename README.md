@@ -102,6 +102,11 @@ In the end, it should look like this:
 Theme=bgrt
 ```
 
+### GRUB Theme
+1. `yay -S grub-theme-poly-dark-git`
+2. Apply the Theme with Grub Customizer, change background to [this one](https://github.com/hypercrites/dotfiles/blob/main/wallapaper/grubscull.png)
+> This obviously works only best for me since it matches my UEFI bootlogo.
+
 ### Terminal
 1. `sudo pacman -S zsh`
 2. Font *mononoki*; `yay -S ttf-mononoki`, `sudo pacman -S ttf-mononoki-nerd`

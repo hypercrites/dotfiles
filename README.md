@@ -48,7 +48,7 @@ In the end, it should look like this:
     - `mount /dev/nvme1n1p4 /mnt`
     - `mount --mkdir /dev/nvme1n1p3 /mnt/boot`
 
-[This video](https://www.youtube.com/watch?v=eUhsFV0xIQc) helped me alot.
+[This video](https://www.youtube.com/watch?v=eUhsFV0xIQc) helped me a lot.
 
 ## Installation
 

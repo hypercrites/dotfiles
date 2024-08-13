@@ -18,7 +18,7 @@ alias neolol="neofetch | lolcat"
 alias lolfetch="neofetch | lolcat"
 alias wetter="curl -s 'wttr.in/Boizenburg?format=3'"
 alias fetch="clear && fastfetch"
-alias server="ssh stunner@serv.er -p 8472"
+alias server="ssh stunner@serv.er -p ##"
 alias q="exit"
 
 #yt-dlp

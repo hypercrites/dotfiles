@@ -18,8 +18,10 @@ In the end, it should look like this:
 - [Preparing](#Preparing)
 - [Installation](#Installation)
 - [First packages and settings](#first-packages-and-settings)
+- [Additional packages](#additional-packages)
 - [Ricing](#ricing)
 - [Tweaking](#tweaking)
+
 
 ## Preparing
 
@@ -78,6 +80,11 @@ In the end, it should look like this:
 2. Get *Pamac*; `yay -S pamac-aur`
 
 ~ under construction
+
+## Additional packages
+
+<sup>There is no order, just some packages i use so i don't forget them.</sup>
+gimp, gimp-gap, 
 
 ## Ricing
 

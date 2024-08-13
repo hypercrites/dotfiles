@@ -96,7 +96,7 @@ In the end, it should look like this:
 
 ### Bootsplash
 1. Install Plymouth: `sudo pacman -s plymouth`
-2. `/etc/plymouth/plymouthd.conf`;
+2. `sudo nano /etc/plymouth/plymouthd.conf`;
 ```
 [Daemon]
 Theme=bgrt

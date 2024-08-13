@@ -82,8 +82,9 @@ In the end, it should look like this:
 ## Ricing
 
 ### Theme and Icons
-1. `sudo pacman -S arc-gtk-theme`
-2. [Tela icons](https://github.com/vinceliuice/Tela-icon-theme?tab=readme-ov-file#installation) (because i couldn't get from the AUR)
+1. Theme: `sudo pacman -S arc-gtk-theme`
+2. Icons: [Tela icons](https://github.com/vinceliuice/Tela-icon-theme?tab=readme-ov-file#installation) (because i couldn't get from the AUR)
+3. Cursor: `yay -S breeze-snow-cursor-theme`
 
 ### Terminal
 1. `sudo pacman -S zsh`
@@ -93,9 +94,15 @@ In the end, it should look like this:
 ## Tweaking
 1. Apply GTK-theme everywhere: `sudo nano /etc/environment`; `GTK_THEME=Arc-Dark`
 2. Apply GTK-theme to Qt: `sudo nano /etc/environment`; `QT_QPA_PLATFORMTHEME=gtk2`
-3. And `nano ~/.config/Trolltech.conf`; 
-     - `[Qt]`
-     - `style=GTK+`
-4. 
+3. And `nano ~/.config/Trolltech.conf`;
+ ```
+[Qt]
+style=GTK+
+```
+5. Apply Cursor-Theme to LightDM: `sudo nano /etc/lightdm/lightdm-gtk-greeter.conf`;
+```
+cursor-theme-name = Tela
+cursor-theme-size = 32
+```
 
 ~ to be continued

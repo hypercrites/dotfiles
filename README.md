@@ -85,7 +85,7 @@ In the end, it should look like this:
 
 <sup>There is no order, just some packages i use so i don't forget them.</sup>
 
-gimp, gimp-gap, 
+> firefox, thunderbird, gimp, gimp-gap, code - oss, grub-customizer, simple-scan, cups, gparted, hexchat, libreoffice fresh, plank, qbittorrent, vlc, blueman, bluez, 
 
 ## Ricing
 
@@ -93,6 +93,14 @@ gimp, gimp-gap,
 1. Theme: `sudo pacman -S arc-gtk-theme`
 2. Icons: [Tela icons](https://github.com/vinceliuice/Tela-icon-theme?tab=readme-ov-file#installation) (because i couldn't get from the AUR)
 3. Cursor: `yay -S breeze-snow-cursor-theme`
+
+### Bootsplash
+1. Install Plymouth: `sudo pacman -s plymouth`
+2. `/etc/plymouth/plymouthd.conf`;
+```
+[Daemon]
+Theme=bgrt
+```
 
 ### Terminal
 1. `sudo pacman -S zsh`

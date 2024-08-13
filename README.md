@@ -133,4 +133,4 @@ ILoveCandy
 
 ~ to be continued
 
-As a sidenote; you can read about my entire linux journey [here](my-linux-journey.md)
+As a sidenote; you can read about my entire linux journey [here](/my-linux-journey.md)

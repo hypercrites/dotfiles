@@ -101,8 +101,8 @@ style=GTK+
 ```
 5. Apply Cursor-Theme to LightDM: `sudo nano /etc/lightdm/lightdm-gtk-greeter.conf`;
 ```
-cursor-theme-name = Tela
-cursor-theme-size = 32
+cursor-theme-name = Breeze_Snow
+cursor-theme-size = 16
 ```
 
 ~ to be continued

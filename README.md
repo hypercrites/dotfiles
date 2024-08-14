@@ -21,6 +21,7 @@ In the end, it should look like this:
 - [Additional packages](#additional-packages)
 - [Ricing](#ricing)
 - [Tweaking](#tweaking)
+- [Battery](#battery)
 
 
 ## Preparing
@@ -130,6 +131,14 @@ cursor-theme-size = 16
 ParallelDownloads = 5
 ILoveCandy
 ```
+
+## Battery
+
+### TLP
+1. `sudo pacman -S tlp`, `yay -S tlpui`
+3. `START_CHARGE_TRESH_BAT0` at 75, `STOP_CHARGE_TRESH_BAT0` at 80
+4. `START_CHARGE_TRESH_BAT1` at 80, `STOP_CHARGE_TRESH_BAT0` at 85
+> Be careful with these settings because thats what **I** use on my ThinkPad T480 with two batteries.
 
 ~ to be continued
 

@@ -22,6 +22,7 @@ In the end, it should look like this:
 - [Ricing](#ricing)
 - [Tweaking](#tweaking)
 - [Battery](#battery)
+- [Printer](#printer)
 
 
 ## Preparing

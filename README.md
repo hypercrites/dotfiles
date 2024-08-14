@@ -84,7 +84,7 @@ In the end, it should look like this:
 
 <sup>There is no order, just some packages i use so i don't forget them.</sup>
 
-> firefox, thunderbird, gimp, gimp-gap, code - oss, grub-customizer, simple-scan, cups, gparted, hexchat, libreoffice fresh, plank, qbittorrent, vlc, blueman, bluez,
+> firefox, thunderbird, gimp, gimp-gap, code - oss, grub-customizer, simple-scan, gparted, hexchat, libreoffice fresh, plank, qbittorrent, vlc, blueman, bluez,
 
 > This is under construction, i will add packages whenever they cross my mind. 
 
@@ -139,6 +139,13 @@ ILoveCandy
 3. `START_CHARGE_TRESH_BAT0` at 75, `STOP_CHARGE_TRESH_BAT0` at 80
 4. `START_CHARGE_TRESH_BAT1` at 80, `STOP_CHARGE_TRESH_BAT0` at 85
 > Be careful with these settings because thats what **I** use on my ThinkPad T480 with two batteries.
+
+## Printer
+1. `sudo pacman -S cups`, `yay -S canon-pixma-g6000-complete`
+2. `lpinfo -m`
+3. `lpadmin -p Canon-TS6300 -E -v ipp://192.168.xx.xx/ipp/print -m everywhere`
+4. `sudo systemctl enable cups.service`
+5. `sudo systemctl start cups.service`
 
 ~ to be continued
 

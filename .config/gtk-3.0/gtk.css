@@ -16,8 +16,9 @@
           background-position: bottom right;
 }
 
-/*
 .thunar .standard-view .view * { background-image: none; }
+
+/*
 .thunar .standard-view .view * { background: transparent; color: white; }
 .thunar .standard-view .view ::selection { background: grey; } 
 */

@@ -61,7 +61,7 @@ In the end, it should look like this:
 5. Profile > Desktop > Xfce4
    - *Graphics driver* and *Greeter* as is
 6. Audio; Pipewire
-7. Kenrels; linux
+7. Kernels; linux
 8. Network configuration; *Use NetworkManager*
 9. Leave the rest, chose **Install**, then *yes*, `exit`, `reboot`
 

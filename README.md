@@ -93,7 +93,7 @@ In the end, it should look like this:
 
 ### Theme and Icons
 1. Theme: `sudo pacman -S arc-gtk-theme`
-2. Icons: [Tela icons](https://github.com/vinceliuice/Tela-icon-theme?tab=readme-ov-file#installation) (because i couldn't get from the AUR)
+2. Icons: [Tela icons](https://github.com/vinceliuice/Tela-icon-theme?tab=readme-ov-file#installation) (because i couldn't get it to work from the AUR)
 3. Cursor: `yay -S breeze-snow-cursor-theme`
 
 ### Bootsplash

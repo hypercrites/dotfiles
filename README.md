@@ -55,7 +55,7 @@ In the end, it should look like this:
 ## Installation
 
 1. **archinstall**
-2. Setup *Locales*, *Hostname*, *User account* (sudo: *true*), Timezone,
+2. Setup *Locales*, *Hostname*, *User account* (sudo: *true*), Timezone
 3. Select *Disc configuration*, chose *Pre-mounted configuration* (Thats what *Partitioning and mounting* was for), then `/mnt`. 
 4. Bootloader; **Grub**
 5. Profile > Desktop > Xfce4

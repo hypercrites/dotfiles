@@ -43,7 +43,7 @@ In the end, it should look like this:
     - Select *Free Space*, 1GiB, *Type*: EFI System.
     - Select *Free Space* again, *enter* (for the entire free space left), *Type*: Linux Filesystem. Select *Write, yes, Quit*.
 3. To confirm, enter `lsblk` again. In my case i have `nvme1n1p3` and `nvme1n1p4` now.
-4. Now set the filesystem for the two new partitions.
+4. Set the filesystem for the two new partitions.
     - For the 1GiB EFI-Partition type `mkfs.fat -F32 /dev/nvme1n1p3`
     - For the filesystem type `mkfs.ext4 /dev/nvme1n1p4`.
 5. Now mount the two new partitions.

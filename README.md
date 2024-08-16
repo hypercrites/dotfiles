@@ -45,7 +45,7 @@ In the end, it should look like this:
 3. To confirm, enter `lsblk` again. In my case i have `nvme1n1p3` and `nvme1n1p4` now.
 4. Set the filesystem for the two new partitions.
     - For the 1GiB EFI-Partition type `mkfs.fat -F32 /dev/nvme1n1p3`
-    - For the filesystem type `mkfs.ext4 /dev/nvme1n1p4`.
+    - For the filesystem type `mkfs.ext4 /dev/nvme1n1p4`
 5. Now mount the two new partitions.
     - `mount /dev/nvme1n1p4 /mnt`
     - `mount --mkdir /dev/nvme1n1p3 /mnt/boot`

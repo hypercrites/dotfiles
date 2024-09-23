@@ -11,14 +11,35 @@
 }
 
 .thunar .standard-view .view {
-          background-image: -gtk-scaled(url("kram.png"), url("kram.png"));
+          background-image: -gtk-scaled(url("corner.png"), url("corner.png"));
           background-repeat: no-repeat;
           background-position: bottom right;
+		  
 }
 
 .thunar .standard-view .view * { background-image: none; }
 
-/*
-.thunar .standard-view .view * { background: transparent; color: white; }
-.thunar .standard-view .view ::selection { background: grey; } 
+.thunar statusbar { 
+	margin-left: -10px; 
+	margin-right: -10px; 
+	padding-left: 15px;
+	background: rgba(47,52,63,0.50);
+}
+
+/* WHY THE FUCK NOT?
+[id^="pager-"] button { background-color: transparent; border-bottom: 2px solid transparent; }
+[id^="pager-"] button:checked { background-color: transparent; border-bottom: 2px solid #5294e2; }
+[id^="pager-"] button:hover { background-color: #23262e; border-bottom: 2px solid #5294e2; }
 */
+
+#whiskermenu-7 button { background-color: transparent; border-bottom: 2px solid transparent; }
+#whiskermenu-7 button:checked { background-color: transparent; border-bottom: 2px solid #5294e2; }
+#whiskermenu-7 button:hover { background-color: #23262e; border-bottom: 2px solid #5294e2; }
+
+#pager-4 button { background-color: transparent; border-bottom: 2px solid transparent; }
+#pager-4 button:checked { background-color: transparent; border-bottom: 2px solid #5294e2; }
+#pager-4 button:hover { background-color: #23262e; border-bottom: 2px solid #5294e2; }
+
+#systray-6 button { background-color: transparent; border-bottom: 2px solid transparent; }
+#systray-6 button:checked { background-color: transparent; border-bottom: 2px solid #5294e2; }
+#systray-6 button:hover { background-color: #23262e; border-bottom: 2px solid #5294e2; }

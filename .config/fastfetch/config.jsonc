@@ -23,13 +23,13 @@
             "key": "├─ ",
             "keyColor": "blue"
         },
-        /* {
+        {
             "type": "command",
             "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days",
             "key": "├─󰃭 ",
             "keyColor": "blue"
-        }, */
-	{
+        },
+	    {
             "type": "uptime",
             "key": "╰─ ",
             "keyColor": "blue"
@@ -70,11 +70,17 @@
             "key": "├─ ",
             "keyColor": "magenta"
         },
+        {
+            "type": "terminalfont",
+            "key": "├─󰛖 ",
+            "keyColor": "magenta",
+            "format": "{2}"
+        },
 	{
             "type": "colors",
             "symbol": "circle",
             "key": "╰─󰌁 ",
             "keyColor": "magenta"
-    	},
+    	}
     ]
 }

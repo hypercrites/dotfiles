@@ -76,9 +76,15 @@
             "keyColor": "magenta",
             "format": "{2}"
         },
-	{
+	/*{
             "type": "colors",
             "symbol": "circle",
+            "key": "╰─󰌁 ",
+            "keyColor": "magenta"
+    	}*/
+	{
+            "type": "command",
+            "format": "{#33}󰮯 {#31} {#32} {#34} {#35}",
             "key": "╰─󰌁 ",
             "keyColor": "magenta"
     	}
